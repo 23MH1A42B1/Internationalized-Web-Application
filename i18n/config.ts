@@ -1,18 +1,29 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+
+// Import translations manually
+import en from './locales/en/common.json';
+import fr from './locales/fr/common.json';
+import es from './locales/es/common.json';
+import ar from './locales/ar/common.json';
+import ja from './locales/ja/common.json';
 
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    resources: {
+      en: { common: en },
+      fr: { common: fr },
+      es: { common: es },
+      ar: { common: ar },
+      ja: { common: ja }
+    },
+    lng: 'en',
     fallbackLng: 'en',
-    supportedLngs: ['en', 'es', 'ar', 'ja'],
-    ns: ['common'],
     defaultNS: 'common',
     interpolation: {
-      escapeValue: false,
-    },
+      escapeValue: false
+    }
   });
 
 export default i18n;

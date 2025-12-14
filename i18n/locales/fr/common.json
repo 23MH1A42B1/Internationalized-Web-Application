@@ -1,0 +1,15 @@
+{
+  "nav.home": "Accueil",
+  "nav.about": "À propos",
+  "nav.contact": "Contact",
+
+  "badge": "Design Moderne Réactif",
+  "hero.title": "Bienvenue sur Notre Site Web",
+  "hero.subtitle": "Nous donnons vie à vos idées avec un design moderne.",
+  "hero.start": "Commencer",
+  "hero.demo": "Voir la Démo",
+
+  "stats.clients": "Clients Satisfaits",
+  "stats.projects": "Projets Terminés",
+  "stats.satisfaction": "Satisfaction"
+}
