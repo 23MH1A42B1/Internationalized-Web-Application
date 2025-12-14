@@ -12,3 +12,6 @@ export default function Home() {
     </I18nProvider>
   );
 }
+<div className="bg-red-500 text-white p-6 text-center">
+  Tailwind Test
+</div>
