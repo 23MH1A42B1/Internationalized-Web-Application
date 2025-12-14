@@ -10,7 +10,9 @@ i18n
     supportedLngs: ['en', 'es', 'ar', 'ja'],
     ns: ['common'],
     defaultNS: 'common',
-    interpolation: { escapeValue: false }
+    interpolation: {
+      escapeValue: false,
+    },
   });
 
 export default i18n;

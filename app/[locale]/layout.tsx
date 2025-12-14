@@ -1,5 +1,3 @@
-import '@/i18n/config';
-
 export const dynamic = 'force-dynamic';
 
 export default function LocaleLayout({
